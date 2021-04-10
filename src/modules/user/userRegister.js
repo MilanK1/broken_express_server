@@ -3,7 +3,7 @@ import User from './Models';
 export default function userRegister(req, res) {
   const newUser = new User({
     email: req.body.email,
-    password: req.body.passowrd,
+    password: req.body.password,
   });
 
   newUser
